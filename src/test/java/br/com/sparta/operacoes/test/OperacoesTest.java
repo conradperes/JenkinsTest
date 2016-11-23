@@ -17,7 +17,7 @@ public class OperacoesTest {
 	public void subTest() {
 		Operacoes op = new Operacoes(5, 3);
 		int ret = op.subtracao();
-		Assert.assertEquals(2, ret);
+		Assert.assertEquals(5, ret);
 	}
 
 }
